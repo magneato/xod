@@ -1,4 +1,13 @@
 .PatchSVG {
   cursor: default;
   user-select: none;
+
+  &.grab {
+    cursor: move;
+    cursor: grab;
+  }
+
+  &.grab:active {
+    cursor: grabbing;
+  }
 }

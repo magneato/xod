@@ -74,7 +74,7 @@ GhostLayer.displayName = 'GhostLayer';
 
 GhostLayer.propTypes = {
   mousePosition: PropTypes.objectOf(PropTypes.number),
-  mode: PropTypes.object, // eslint-disable-line
+  mode: PropTypes.string, // eslint-disable-line
   ghostLink: PropTypes.any,
 };
 
